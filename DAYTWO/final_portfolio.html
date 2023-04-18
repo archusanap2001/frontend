@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Portfolio</title>
+    
+  </head>
+  <style>
+    *{
+        color: black;
+    }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  header {
+    background-color: #9e5b79;
+    /* color: #fff; */
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  header h1{
+    font-size: 50px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-right: 1rem;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  /* nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+   */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  h2 {
+    margin-top: 2rem;
+  }
+  
+  .work-item {
+    margin-bottom: 2rem;
+  }
+  
+  .work-item img {
+    max-width: 100%;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+  }
+  
+  form input[type="submit"] {
+    background-color: #9e5b79;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+
+  img{
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+    }
+    .my_img{
+        border-radius: 0%;
+        height: 200px;
+        width: 200px;
+        margin-right: -50px;
+    }
+    .my_img:hover{
+      zoom: 110%;
+    }
+    #elements:hover{
+      color:palevioletred;
+     
+    }
+    #elements{
+      margin-top: 100px;
+      margin-right: 50px;
+
+    }
+  
+  footer {
+    background-color: #9e5b79;
+  }
+  #send:hover{
+    background-color: #9e5b79;
+  }
+    .services-head{
+                  color: rgb(10, 9, 9);
+                  text-align: center;
+                  margin-bottom: 1rem;
+                  line-height: 0.5rem;
+                  color: var(--primary);
+                  }
+                  .services-head + p{
+                  color: var(--white);
+                  font-family: 'Lato', sans-serif;
+                  margin-bottom: 1rem;
+                  text-align: center;
+                  margin-bottom: 6rem;
+                  font-weight: 400;
+                  }
+                  .card img{
+                  width: 50px;
+                  background:white;
+                  }
+                  section.services .card-grid{
+                  display: grid;
+                  grid-template-columns: repeat(3,1fr);
+                  column-gap: 2rem;
+                  }
+                  section.services .card-grid .card{
+                  background: var(--white);
+                  padding: 3rem 2rem;
+                  position: relative;
+                  text-align: center;
+                  transition: all .2s ease;
+                  }
+                  section.services .card-grid .card img{
+                  position: absolute;
+                  top: -1.5rem;
+                  left: 50%;
+                  transform: translateX(-50%);
+                  color: var();
+                  }
+                  section.services .card-grid .card h2{
+                  font-weight: 600;
+                  font-size: 1.2rem;
+                  margin-bottom: 0.5rem;
+                  }
+                  section.services .card-grid .card p{
+                  font-family: 'Lato', sans-serif;
+                  color: var(--seconday);
+                  line-height: 1.6;
+                  }
+                  section.services .card-grid .card:hover{
+                  background: var(--primary);
+                  }
+                  section.services .card-grid .card:hover h2{
+                  color: var(--white);
+                  }
+                  section.services .card-grid .card:hover p{
+                  color: var(--white);
+                  }
+    
+  </style>
+  <body>
+    <header>
+      <h1 style="margin-left: 500px;">Archana A. Sanap</h1>
+      <nav>
+        <ul id="elements">
+          <button><li><a  href="#about"></a><b>About</b></a></li></button>
+          <button><li><a style="color: black;" href="#bio"><b>Bio</b></a></li></button>
+          <button><li><a style="color: black;" href="#skills"><b>Skills</b></a></li></button>
+          <button> <li><a style="color: black;" href="#contact"><b>Contact</b></a></li></button>
+         
+          
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h2 style="background-color: #9e5b79; color: black;">About Me</h2>
+        <center>
+            <img class="my_img" src="D.jpg" alt="">
+        </center>
+        
+        <p style=" margin-top: 100px;">
+            <ul>
+               <li> I would like to be an assest to the company and
+                put all my effort for the well being of the
+                organisation and want to seek the position in an
+                organisation which gives me a chance to improve
+                my technical knowledge by and enhance my
+                technical skill and working.<br></li>
+                <li> I have completed two projects.<br></li>
+                <li> I am always energetic and eager to learn new skills. I aim to be productive and quantitative.</li>
+            </ul>
+          </p>
+       
+      </section>
+      <section id="bio">
+        <div class="container"><br></div>
+        <h2 style="background-color: #9e5b79; color: black;">Bio</h2>
+        <p >
+          <div id="logo_img">
+            <img src="email.logo.png" alt=""><a href="mailto:archanasanap26@gmail.com">archanasanap26@gmail.com</a> <br>
+            <img src="mob no.png" alt=""> 9307516327 <br>
+            <img src="Github.png" alt=""><a href="https://github.com/archusanap2001 ">github link</a><br>
+            <img src="linkediun.png" alt=""><a href="https://www.linkedin.com/in/archana-sanap-a05a6a21a">https://www.linkedin.com/in/Archana-sanap-a05a6a21a</a><br>
+            <img src="address.png" alt="">Shingave Tal.Niphad Dist, Nashik 422210. <br>
+          </div>
+  
+          </p>
+    </section>
+      <section id= "skills">
+      <h2 style="background-color: #9e5b79; color: black;">Skills</h2>
+        <b>Programing Languages:</b><br>
+        <ul>
+            <li>C</li>
+            <li>C++</li>
+            <li>Java</li>
+            <li>Database</li>
+            <li>frontend</li>
+        <br>
+            <b>Programing Languages:</b>
+            <li>Good Communication Skills</li>
+            <li>Team work</li>
+            <li>Observation.</li>
+            <li>Hardworking</li>
+        </section>
+        <section class="services" id="project">
+          <div class="container"><br>
+          <h1 class="services-head">Projects</h1>
+          <div class="card-grid">
+          <div class="card">
+          <h2>web devlopement</h2>
+          <p> website which is based on html,css,javascript name is "apla nashik"</p>
+          </div>
+          <div class="card">
+          <h2>Web Developement</h2>
+          <p>Dynamic website for basic banking system which is used for transaction between multiple user</p>
+          </div>
+          <div class="card">
+          <h2>Artificial Intelligence and Machine learning</h2>
+          <p>ongoing project work tracking system for the students by using html,css,Js and AI AND ML</p>
+          </div>
+          </div>
+          </div>
+          </section>
+      <section id="contact">
+        <h2 style="background-color: #9e5b79; color: black;">Contact Me</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" placeholder="enter your name...." required><br>
+          <label for="email">Email:</label>
+          <input type="text" placeholder="enter your email...." required><br>
+          <label for="message">Message:</label>
+          <input type="text" placeholder="enter your message...." required><br>
+          <center>
+          <input id="send" style="width: 60px;" type="submit" value="Send">
+          </center>
+        </form>
+      </section>
+    </main>
+    <footer style="height: 50px;">
+      <p>&copy; Archana Sanap</p>
+    </footer>
+  </body>
+  <!-- <script>
+    function bg1(){
+      document.getElementById("e1").style.backgroundColor= "#333";
+    }
+  </script> -->
+</html>
