@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Placement Drive</title>
+    <!-- <link rel="stylesheet" href="webform.css"> //called as external css -->
+    <style>
+        label{
+            color:rgb(228, 31, 153);
+            /* display:grid; */
+        }
+        body{
+          border: solid 2px black; 
+          text-align: center;
+          font-size: 20px;
+        
+        }
+        #h6{
+            background-color:rgb(164, 235, 164);
+        }
+        p:first-line{          /*pseudo code */
+            color:rgb(222, 56, 159);
+        }
+        .mydiv{
+    
+            display: grid;
+        }
+        #h6:hover{
+            color:rgb(17, 10, 241);
+        }
+        h1:horizontal{
+            color:greenyellow
+        }
+   
+        </style>
+        <!-- /*  called as internal css  */ -->
+     
+</head>
+<body>
+    <form>
+        <h1>  Accenture Registration Form</h1>
+        <label for="FirstName" id="h1">enter first name:</label>
+        <input type="text" name="FirstName" placeholder="Enter the first name:"required>
+        <br><br>
+        <label for="MiddleName" id="h2">enter Middle name:</label>
+        <input type="text">
+        <br><br>
+        <label for="LastName" id="h3">enter last name:</label>
+        <input type="text">
+        <br><br>
+        <label for="Password">enter password:</label>
+        <input type="password">
+        <br>
+        <p> enter the Gender:</p>
+        <input type="radio" name="gender" id="first">
+        <label for="first">male</label><br>
+        <input type="radio" name="gender" id="second">
+        <label for="second">female</label><br>
+        <input type="radio" name="gender" id="third">
+        <label for="third">other</label><br><br>
+        <label for="security">Security questions</label>
+        <select name="security" id="security">
+            <option value="op1">what is your first school name?</option>
+            <option value="op2">what is your fav palce to chill?</option>
+            <option value="op3">what is your nickname?</option>
+        </select><br><br>
+        <label for="FirstName">Enter your answer</label>
+        <input type="text"><br>
+        <label for="submit"></label>
+        <input type="submit">
+
+</form>
+</body>
+</html>
